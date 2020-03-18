@@ -7,6 +7,7 @@ Base For "github.com/olivere/elastic" ElasticSearch Query Tool
 ### 功能简述
 从es中查找指定时间戳区间内的用户间聊天记录  
 支持按指定时间区域查找数据  
+支持跨多个年份查询数据  
 支持按多个条件排序  
 支持分页
 
