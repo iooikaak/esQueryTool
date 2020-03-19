@@ -1,4 +1,4 @@
-package api
+package util
 
 import (
 	"context"
@@ -20,10 +20,10 @@ func ESQueryTool() ([]*ESMessage, int64, error) {
 	var toID int64 = 231
 	//userID:我的用户ID
 	var userID int64 = 121
-	//begin:查询开始时间(unix时间戳)
-	var begin int64 = 1580046211
-	//end:查询结束时间(unix时间戳)
-	var end int64 = 1584546239
+	//begin:查询开始时间(unix时间戳毫秒)
+	var begin int64 = 1580046211000
+	//end:查询结束时间(unix时间戳毫秒)
+	var end int64 = 1584546239000
 	//limit:查询多少条聊天记录
 	var limit int64 = 1000
 	//返回一个结构体支持跨年查询数据
